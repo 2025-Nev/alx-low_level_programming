@@ -7,7 +7,7 @@
 /**
  * main - Entry point
  *
- * Return: Alwayss 0 (Success/ correct
+ * Return: Always 0 (Success/ correct)
   */
 
 int main(void)
@@ -24,14 +24,14 @@ int main(void)
 
 		                if (n == 0)
 	{	
-	printf("%i is zero\n", n);
+		printf("%i is zero\n", n);
 	}
        
 	else if (n < 0) 
 
 	{
 	
-	 printf("%i is negative\n", n);
+		 printf("%i is negative\n", n);
 	}
 
 	 else 
