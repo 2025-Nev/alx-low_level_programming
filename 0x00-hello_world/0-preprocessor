@@ -1,5 +1,6 @@
 #!/bin/bash
-gcc -E -o c $CFILE
+
+gcc -E $CFILE -oc
 
 
 
