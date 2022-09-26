@@ -5,9 +5,9 @@
 * @s: string to check
 * @c: character to check for
 *
-*Return: pointer to o spot in s with c or null
+*Return: pointer to  spot in s with c or null
 */
-char *_strchar(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int i;
 
