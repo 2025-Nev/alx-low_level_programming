@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * len -  returns length of str
@@ -8,8 +9,7 @@
  */
 int len(char *str)
 {
-	int len = 0
-
+	int len = 0;
 
 	if (str != NULL)
 	{
@@ -38,7 +38,7 @@ char *argstostr(int ac, char **av)
 		sum += (len(av[ac]) + 1);
 	new_string = (char *) malloc(sum + 1);
 
-	if (new_string +! NULL)
+	if (new_string != NULL)
 	{
 		while (k < i)
 		{
