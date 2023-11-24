@@ -1,1 +1,1 @@
-0x18. C - Dynamic libraries
+Solutions on dynamic libraries
